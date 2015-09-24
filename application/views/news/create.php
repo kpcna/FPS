@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>News - Create Controller</title>
-</head>
-<body>
-<h2><?php echo $title; ?></h2>
-
 <?php echo validation_errors(); ?>
 
 <?php echo form_open('news/create'); ?>
@@ -19,5 +11,3 @@
     <input class="btn btn-default" type="submit" name="submit" value="Create news item" />
 
 </form>
-</body>
-</html>
