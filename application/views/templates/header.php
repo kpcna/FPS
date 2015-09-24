@@ -1,6 +1,6 @@
 <html>
         <head>
-                <title>CodeIgniter Tutorial</title>
+                <title>Footy Posts</title>
 		<link rel="stylesheet" href="<?php echo base_url("assets/css/bootstrap.css"); ?>" />
 		<link href="<?php echo base_url("assets/css/jumbotron-narrow.css"); ?>" rel="stylesheet">
         </head>
@@ -10,10 +10,10 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+            <li role="presentation"><a href="index.php/news">News</a></li>
+            <li role="presentation"><a href="index.php/news/create">Create</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted">Footy Posts</h3>
       </div>
                 <h1><?php echo $title; ?></h1>
