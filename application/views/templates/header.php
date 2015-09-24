@@ -1,3 +1,6 @@
+<?php
+$this->load->helper('url');
+?>
 <html>
         <head>
                 <title>CodeIgniter Tutorial</title>
