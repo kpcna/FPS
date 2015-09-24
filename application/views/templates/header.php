@@ -9,9 +9,9 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="index.php/news">News</a></li>
-            <li role="presentation"><a href="index.php/news/create">Create</a></li>
+            <li role="presentation" class="active"><a href="<?php echo base_url(""); ?>">Home</a></li>
+            <li role="presentation"><a href="<?php echo base_url("index.php/news"); ?>">News</a></li>
+            <li role="presentation"><a href="<?php echo base_url("index.php/news/create"); ?>">Create</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Footy Posts</h3>
